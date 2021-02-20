@@ -11,7 +11,8 @@ import SwiftUI
 struct NewsMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+            //ArticleView(article: Article.dummyData)
         }
     }
 }
