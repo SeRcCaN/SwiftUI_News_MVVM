@@ -12,7 +12,6 @@ struct NewsMVVMApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
-            //ArticleView(article: Article.dummyData)
         }
     }
 }
